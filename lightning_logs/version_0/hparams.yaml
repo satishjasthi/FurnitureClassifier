@@ -1,0 +1,14 @@
+backbone: resnet18
+backbone_kwargs: null
+head: null
+learning_rate: 0.001
+loss_fn: null
+metrics: null
+multi_label: false
+num_classes: 4
+optimizer: !!python/name:torch.optim.adam.Adam ''
+optimizer_kwargs: null
+pretrained: true
+scheduler: null
+scheduler_kwargs: null
+serializer: null
