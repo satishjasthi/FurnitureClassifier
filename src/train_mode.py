@@ -2,6 +2,7 @@ import flash
 import argparse
 from flash.image import ImageClassificationData, ImageClassifier
 
+"python src/train_model.py --dataset ik --data_root data/model_data"
 if __name__ == "__main__":
   parser = argparse.ArgumentParser(description='Train an image classification model')
   parser.add_argument('--dataset', type=str, 
